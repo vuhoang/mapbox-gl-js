@@ -287,12 +287,12 @@ exports.filterObject = function(input: Object, iterator: Function, context?: Obj
 };
 
 exports.objectValues = function(input: Object) {
-    const output = []
+    const output = [];
     for (const key in input) {
         output.push(input[key]);
     }
     return output;
-}
+};
 
 /**
  * Deeply compares two object literals.
